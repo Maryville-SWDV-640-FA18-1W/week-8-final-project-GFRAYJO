@@ -74,20 +74,20 @@
                 <div class="col-sm-6"> 
                     <h2><b>Send Us a Message</b></h2>
                     <form action="/action_page.php">
-                        <div class="form-group">
+                        <div class="form-group" role="textbox">
                           <label for="fullname">Your Name (full name):</label>
                           <input type="name" class="form-control" id="name">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" role="textbox">
                           <label for="phone">Phone Number:</label>
                           <input type="phone" class="form-control" id="phone">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" role="textbox">
                             <label for="email">Email Address:</label>
                             <input type="email" class="form-control" id="email">
                         </div>
                         <label>Contact Reason</label>
-                        <div class="checkbox">
+                        <div class="checkbox" role="checkbox">
                           <label><input type="checkbox">General Question</label>
                           <br>
                           <label><input type="checkbox">Submit a Review</label>
@@ -96,7 +96,7 @@
                         </div>
                         <br>
                         <label>Review Our Website</label>
-                        <div class="radio">
+                        <div class="radio" role="radio">
                             <label><input type="radio">1 Star</label>
                             <label><input type="radio">2 Star</label>
                             <label><input type="radio">3 Star</label>
@@ -107,7 +107,7 @@
                             <label for="comments">Comments</label>
                             <textarea class="form-control" rows="6" id="comments"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-default" style="background-color:lightgray; font-weight:bold;">Submit</button>
+                        <button type="submit" class="btn btn-default" role="button" style="background-color:lightgray; font-weight:bold;">Submit</button>
                       </form>
                 </div>
         </div>
