@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <header>
+            <meta charset="utf-8">
+            <meta name='keywords' content='Sad, Lonely, Depressed, alone, resources, housing, medical, behavioral, food'>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href='theme.css' rel='stylesheet'/>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="mustache.js"></script>
+            <script type="text/javascript" src="events.js"></script>
+        <header><h1><img src="Logo.png" alt="Company Logo" role="img">Community Aide Services</h1></header> 
+    </head>
+    <body>   
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" role="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                
+                </div>
+                <!--<div class="container">-->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="indexGF.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Services.html">Our Services</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Medical.html" role="link">Healthcare/Medical</a></li>
+                        <li><a class="dropdown-item" href="Behavioral.html" role="link">Behavioral Health/Substance Abuse</a></li>
+                        <li><a class="dropdown-item" href="Housing.html" role="link">Housing</a></li>
+                        <li><a class="dropdown-item" href="Food.html" role="link">Food and Provisional Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+            <form action="/action_page.php" method="post">
+                <input type="search" id="mySearch" placeholder="Search..." name="search">
+                <button onclick="myFunction()">Submit</button>
+                <p id="searchFunc"></p>
+                <script>
+                function myFunction() {
+                    var x = document.getElementById("mySearch").placeholder;
+                    document.getElementById("searchFunc").innerHTML = x;
+                    }
+                </script>
+            </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-sm-7">
+                <h2><b>Healthcare/Medical Resources</b></h2>
+                <p>Here you may find additional resources on medical and dental providers that work with the community and their families to provide quality and affordable healthcare.</p>
+                <ul>
+                    <li><h3><b>El Rio Community Health Center</b></h3>
+                        <p>El Rio is dedicated to providing comprehensive, accessible, affordable, quality, and compassionate care to the community.
+                           They serve 1 in 10 people for primary medical and dental care. For more information click here to visit their website - 
+                           <a href="www.elrio.org">El Rio Community Health Center</a></p>
+                    </li>
+                    <li><h3><b>St. Elizabeth's Health Center</b></h3>
+                        <p>St. Elizabeth’s Health Center is a faith-based community health center that supports the healthcare needs of 
+                           the uninsured and underserved in Southern Arizona. They provide high quality healthcare with respect and dignity by 
+                           responding to individual needs and encouraging health and well-being. For more information click here to visit their website - 
+                           <a href="saintehc.com">St. Elizabeth's Health Center</a></p>
+
+                    </li>
+                    <li><h3><b>MHC Healthcare</b></h3>
+                        <p>MHC is dedicated to providing provide compassionate, quality, and accessible whole person health care to our community.
+                           MHC Healthcare is an innovative, patient focused organization dedicated to providing quality healthcare to all individuals 
+                           of all ages regardless of insurance status or the ability to pay. For more information click here to visit their website -  
+                           <a href="www.mhchealthcare.org">MHC Healthcare</a></p>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="col-sm-5">
+                <img src="elrio.png" width="320" height="200" alt="El Rio Community Health Center logo">
+                <br>
+                <br>
+                <img src="saintehc.png" width="320" height="200" alt="St. Elizabeth's Health Center logo">
+                <br>
+                <br>
+                <br>
+                <img src="mhc.png" width="480" height="220" alt="MHC Healthcare logo">
+            </div> 
+        </div>
+        </body>
+        <footer>
+            <br>
+            <p>&copy;2018. Gaby Frayjo.  All Rights Reserved for this Project.</p>
+        </footer> 
+</html>

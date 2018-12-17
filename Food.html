@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <header>
+            <meta charset="utf-8">
+            <meta name='keywords' content='Sad, Lonely, Depressed, alone, resources, housing, medical, behavioral, food'>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href='theme.css' rel='stylesheet'/>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="mustache.js"></script>
+            <script type="text/javascript" src="events.js"></script>
+        <header><h1><img src="Logo.png" alt="Company Logo" role="img">Community Aide Services</h1></header> 
+    </head>
+    <body>   
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" role="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                
+                </div>
+                <!--<div class="container">-->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="indexGF.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Services.html">Our Services</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Medical.html" role="link">Healthcare/Medical</a></li>
+                        <li><a class="dropdown-item" href="Behavioral.html" role="link">Behavioral Health/Substance Abuse</a></li>
+                        <li><a class="dropdown-item" href="Housing.html" role="link">Housing</a></li>
+                        <li><a class="dropdown-item" href="Food.html" role="link">Food and Provisional Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+            <form action="/action_page.php" method="post">
+                <input type="search" id="mySearch" placeholder="Search..." name="search">
+                <button onclick="myFunction()">Submit</button>
+                <p id="searchFunc"></p>
+                <script>
+                function myFunction() {
+                    var x = document.getElementById("mySearch").placeholder;
+                    document.getElementById("searchFunc").innerHTML = x;
+                    }
+                </script>
+            </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-sm-7">
+                <h2><b>Food and Provisional Resources</b></h2>
+                <p>Here you may find additional locations that help provide food and provisional services</p>
+                <ul>
+                    <li><h3><b>Arizona Food Bank</b></h3>
+                        <p>Because healthy people and communities prosper and flourish, we promote public awareness, 
+                           build coalitions and partnerships, engage in advocacy to influence public policy, and support 
+                           food banks to achieve a hunger-free Arizona. Their goals include - Coordinating the rescuing, 
+                           transportation and distribution of food, providing effective public education about hunger issues, 
+                           advocating for food security through sound public nutrition policy, serving as a source of 
+                           information and expertise to increase awareness of hunger issues for the general public, improving 
+                           and maintaining organizational effectiveness to maximize our efforts to help hungry people, developing 
+                           financial support, relationships and resources to better serve our members, Expanding coalitions 
+                           with other anti-hunger and anti-poverty organizations, investigating new initiatives to preserve 
+                           and expand food resourcesFor more information click here to visit their website - 
+                           <a href="www.azfoodbanks.org">Association of Arizona Food Banks</a></p>
+                    </li>
+                    <li><h3><b>Community Food Bank of Southern Arizona</b></h3>
+                        <p>The Community Food Bank of Southern Arizona responds to the root causes of hunger and seeks to
+                           restore dignity, health, opportunity and hope to people living in poverty. Our mission is to change
+                           lives in the communities we serve by feeding the hungry today, and building a healthy, hunger-free tomorrow. 
+                           For more information click here to visit their website - <a href="www.communityfoodbank.org">Community Food Bank of Southern AZ</a></p>
+
+                    </li>
+                    <li><h3><b>Food Finder</b></h3>
+                        <p>FoodFinder launched in May of 2014 as www.foodfinderga.org, a humble website that provided an easier way to search 
+                           for free food resources and that reflects an ambition to serve anybody facing hunger and food insecurity any time of year, 
+                           anywhere in the country. For more information click here to visit their website - <a href="www.foodfinder.us">Primavera Foundation</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-5">
+                <br>
+                <br>
+                <br>
+                <img src="FoodResources.PNG" width="360" height="200" alt="Family Housing Resources logo">
+                <br>
+                <br>
+                <br>
+                <img src="findafoodbank.png" width="280" height="160" alt="Pima County Help.org logo">
+                <br>
+                <br>
+                <br>
+                <img src="cfbofsa.png" width="400" height="180" alt="Primavera Foundation logo">
+            </div> 
+        </div>
+        </body>
+        <footer>
+            <br>
+            <p>&copy;2018. Gaby Frayjo.  All Rights Reserved for this Project.</p>
+        </footer> 
+</html>

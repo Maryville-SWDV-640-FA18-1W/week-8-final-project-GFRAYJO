@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <header>
+            <meta charset="utf-8">
+            <meta name='keywords' content='Sad, Lonely, Depressed, alone, resources, housing, medical, behavioral, food'>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href='theme.css' rel='stylesheet'/>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="mustache.js"></script>
+            <script type="text/javascript" src="events.js"></script>
+        <header><h1><img src="Logo.png" alt="Company Logo" role="img">Community Aide Services</h1></header> 
+    </head>
+    <body>   
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" role="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                
+                </div>
+                <!--<div class="container">-->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="indexGF.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Services.html">Our Services</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Medical.html" role="link">Healthcare/Medical</a></li>
+                        <li><a class="dropdown-item" href="Behavioral.html" role="link">Behavioral Health/Substance Abuse</a></li>
+                        <li><a class="dropdown-item" href="Housing.html" role="link">Housing</a></li>
+                        <li><a class="dropdown-item" href="Food.html" role="link">Food and Provisional Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+            <form action="/action_page.php" method="post">
+                <input type="search" id="mySearch" placeholder="Search..." name="search">
+                <button onclick="myFunction()">Submit</button>
+                <p id="searchFunc"></p>
+                <script>
+                function myFunction() {
+                    var x = document.getElementById("mySearch").placeholder;
+                    document.getElementById("searchFunc").innerHTML = x;
+                    }
+                </script>
+            </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-sm-7">
+                <h2><b>Housing Resources</b></h2>
+                <p>Here you may find additional external resources that specialize with helping those in need of housing</p>
+                <ul>
+                    <li><h3><b>Family Housing Resources</b></h3>
+                        <p>The mission of Family Housing Resources (FHR) is to assist low to moderate income families and
+                           individuals acquire decent, affordable housing. For more information click here to visit their website - 
+                           <a href="www.familyhousingresources.com">Family Housing Resources</a></p>
+                    </li>
+                    <li><h3><b>PimaCountyHelp.org</b></h3>
+                        <p>Pima County Help.org helps to provide emergency assistance for rent, utilities, and a wide-range of
+                           additional services. For more information click here to visit their website - <a href="PimaCountyHelp.org">Pima County Help</a></p>
+
+                    </li>
+                    <li><h3><b>Primavera Foundation</b></h3>
+                        <p>Isolation. Distress. Confusion. Embarrassment. We recognize and understand the stress and anxiety that poverty, homelessness, and/or 
+                           fear of homelessness can cause you and your family. We are here to listen, counsel and assist you when you are
+                           in crisis, provide the relevant support, guidance and resources to help you develop a viable plan for the future, and offer you the 
+                           opportunity to develop your skills and assets, set realistic goals, and work toward achieving long-term financial stability.  
+                           For more information click here to visit their website - <a href="www.primavera.org">Primavera Foundation</a></p>
+                    </li>
+                    <br>
+                    <img src="Housing.PNG" width="460" height="210" alt="Building a Home"> 
+                </ul>
+                
+            </div>
+            <div class="col-sm-5">
+                <br>
+                <img src="famhousing.png" width="360" height="200" alt="Family Housing Resources logo">
+                <br>
+                <br>
+                <img src="pimacountyhelp.png" width="520" height="160" alt="Pima County Help.org logo">
+                <br>
+                <br>
+                <img src="primavera.png" width="180" height="180" alt="Primavera Foundation logo">
+            </div> 
+        </div>
+        </body>
+        <footer>
+            <br>
+            <p>&copy;2018. Gaby Frayjo.  All Rights Reserved for this Project.</p>
+        </footer> 
+</html>

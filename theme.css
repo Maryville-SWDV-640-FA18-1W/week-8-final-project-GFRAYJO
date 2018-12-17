@@ -1,0 +1,392 @@
+html {
+  max-width: 100%;
+}
+html header {
+  background-color: #FFFFFF;
+  font-family: Serif;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+}
+html header .h1 {
+  text-align: center;
+  font-family: Serif;
+  font-weight: bold;
+  margin: 10px;
+}
+html body .navbar.navbar-inverse.navbar-static-top,
+html nav .navbar.navbar-inverse.navbar-static-top,
+html body div.container-fluid,
+html nav div.container-fluid,
+html body .dropdown-toggle,
+html nav .dropdown-toggle,
+html body .caret,
+html nav .caret {
+  background-color: #B0C4DE;
+  text-align: center;
+  color: #000000;
+  font-size: 24px;
+}
+html body .navbar.navbar-inverse.navbar-static-top .collapse-navbar-collapse,
+html nav .navbar.navbar-inverse.navbar-static-top .collapse-navbar-collapse,
+html body div.container-fluid .collapse-navbar-collapse,
+html nav div.container-fluid .collapse-navbar-collapse,
+html body .dropdown-toggle .collapse-navbar-collapse,
+html nav .dropdown-toggle .collapse-navbar-collapse,
+html body .caret .collapse-navbar-collapse,
+html nav .caret .collapse-navbar-collapse,
+html body .navbar.navbar-inverse.navbar-static-top #navbar-collapse-1,
+html nav .navbar.navbar-inverse.navbar-static-top #navbar-collapse-1,
+html body div.container-fluid #navbar-collapse-1,
+html nav div.container-fluid #navbar-collapse-1,
+html body .dropdown-toggle #navbar-collapse-1,
+html nav .dropdown-toggle #navbar-collapse-1,
+html body .caret #navbar-collapse-1,
+html nav .caret #navbar-collapse-1,
+html body .navbar.navbar-inverse.navbar-static-top .nav.navbar-nav.navbar-center,
+html nav .navbar.navbar-inverse.navbar-static-top .nav.navbar-nav.navbar-center,
+html body div.container-fluid .nav.navbar-nav.navbar-center,
+html nav div.container-fluid .nav.navbar-nav.navbar-center,
+html body .dropdown-toggle .nav.navbar-nav.navbar-center,
+html nav .dropdown-toggle .nav.navbar-nav.navbar-center,
+html body .caret .nav.navbar-nav.navbar-center,
+html nav .caret .nav.navbar-nav.navbar-center {
+  color: #000000;
+  text-align: left;
+  font-size: 24px;
+}
+html body .navbar.navbar-inverse.navbar-static-top .collapse-navbar-collapse form,
+html nav .navbar.navbar-inverse.navbar-static-top .collapse-navbar-collapse form,
+html body div.container-fluid .collapse-navbar-collapse form,
+html nav div.container-fluid .collapse-navbar-collapse form,
+html body .dropdown-toggle .collapse-navbar-collapse form,
+html nav .dropdown-toggle .collapse-navbar-collapse form,
+html body .caret .collapse-navbar-collapse form,
+html nav .caret .collapse-navbar-collapse form,
+html body .navbar.navbar-inverse.navbar-static-top #navbar-collapse-1 form,
+html nav .navbar.navbar-inverse.navbar-static-top #navbar-collapse-1 form,
+html body div.container-fluid #navbar-collapse-1 form,
+html nav div.container-fluid #navbar-collapse-1 form,
+html body .dropdown-toggle #navbar-collapse-1 form,
+html nav .dropdown-toggle #navbar-collapse-1 form,
+html body .caret #navbar-collapse-1 form,
+html nav .caret #navbar-collapse-1 form,
+html body .navbar.navbar-inverse.navbar-static-top .nav.navbar-nav.navbar-center form,
+html nav .navbar.navbar-inverse.navbar-static-top .nav.navbar-nav.navbar-center form,
+html body div.container-fluid .nav.navbar-nav.navbar-center form,
+html nav div.container-fluid .nav.navbar-nav.navbar-center form,
+html body .dropdown-toggle .nav.navbar-nav.navbar-center form,
+html nav .dropdown-toggle .nav.navbar-nav.navbar-center form,
+html body .caret .nav.navbar-nav.navbar-center form,
+html nav .caret .nav.navbar-nav.navbar-center form {
+  display: inline-flex;
+  font-size: 16px;
+  position: 50px;
+  margin: 6px;
+  padding-left: 315px;
+  padding-right: 0px;
+  padding-top: 5px;
+}
+html body .navbar.navbar-inverse.navbar-static-top button,
+html nav .navbar.navbar-inverse.navbar-static-top button,
+html body div.container-fluid button,
+html nav div.container-fluid button,
+html body .dropdown-toggle button,
+html nav .dropdown-toggle button,
+html body .caret button,
+html nav .caret button {
+  background-color: #FFFFFF;
+}
+html body .navbar.navbar-inverse.navbar-static-top button .icon-bar,
+html nav .navbar.navbar-inverse.navbar-static-top button .icon-bar,
+html body div.container-fluid button .icon-bar,
+html nav div.container-fluid button .icon-bar,
+html body .dropdown-toggle button .icon-bar,
+html nav .dropdown-toggle button .icon-bar,
+html body .caret button .icon-bar,
+html nav .caret button .icon-bar {
+  background-color: #000000;
+}
+html body .navbar.navbar-inverse.navbar-static-top a,
+html nav .navbar.navbar-inverse.navbar-static-top a,
+html body div.container-fluid a,
+html nav div.container-fluid a,
+html body .dropdown-toggle a,
+html nav .dropdown-toggle a,
+html body .caret a,
+html nav .caret a {
+  color: #000000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+html body .navbar.navbar-inverse.navbar-static-top .mixin-class,
+html nav .navbar.navbar-inverse.navbar-static-top .mixin-class,
+html body div.container-fluid .mixin-class,
+html nav div.container-fluid .mixin-class,
+html body .dropdown-toggle .mixin-class,
+html nav .dropdown-toggle .mixin-class,
+html body .caret .mixin-class,
+html nav .caret .mixin-class {
+  color: #000000;
+  text-align: left;
+  font-size: 24px;
+}
+html body .navbar.navbar-inverse.navbar-static-top .mixin-class form,
+html nav .navbar.navbar-inverse.navbar-static-top .mixin-class form,
+html body div.container-fluid .mixin-class form,
+html nav div.container-fluid .mixin-class form,
+html body .dropdown-toggle .mixin-class form,
+html nav .dropdown-toggle .mixin-class form,
+html body .caret .mixin-class form,
+html nav .caret .mixin-class form {
+  display: inline-flex;
+  font-size: 16px;
+  position: 50px;
+  margin: 6px;
+  padding-left: 315px;
+  padding-right: 0px;
+  padding-top: 5px;
+}
+html body .navbar.navbar-inverse.navbar-static-top .mixin-id,
+html nav .navbar.navbar-inverse.navbar-static-top .mixin-id,
+html body div.container-fluid .mixin-id,
+html nav div.container-fluid .mixin-id,
+html body .dropdown-toggle .mixin-id,
+html nav .dropdown-toggle .mixin-id,
+html body .caret .mixin-id,
+html nav .caret .mixin-id {
+  color: #000000;
+  text-align: left;
+  font-size: 24px;
+}
+html body .navbar.navbar-inverse.navbar-static-top .mixin-id form,
+html nav .navbar.navbar-inverse.navbar-static-top .mixin-id form,
+html body div.container-fluid .mixin-id form,
+html nav div.container-fluid .mixin-id form,
+html body .dropdown-toggle .mixin-id form,
+html nav .dropdown-toggle .mixin-id form,
+html body .caret .mixin-id form,
+html nav .caret .mixin-id form {
+  display: inline-flex;
+  font-size: 16px;
+  position: 50px;
+  margin: 6px;
+  padding-left: 315px;
+  padding-right: 0px;
+  padding-top: 5px;
+}
+html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item,
+html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item,
+html body div.container-fluid a.dropdown-item,
+html nav div.container-fluid a.dropdown-item,
+html body .dropdown-toggle a.dropdown-item,
+html nav .dropdown-toggle a.dropdown-item,
+html body .caret a.dropdown-item,
+html nav .caret a.dropdown-item {
+  color: #000000;
+  font-size: 18px;
+  font-family: Serif;
+  text-align: left;
+}
+@media all and (min-width: 560px) {
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html body .caret a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html nav .caret a.dropdown-item .row.col-lg-6 .embed-responsive-item,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .embed-responsive-item,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .embed-responsive-item,
+  html body div.container-fluid a.dropdown-item .iframe .embed-responsive-item,
+  html nav div.container-fluid a.dropdown-item .iframe .embed-responsive-item,
+  html body .dropdown-toggle a.dropdown-item .iframe .embed-responsive-item,
+  html nav .dropdown-toggle a.dropdown-item .iframe .embed-responsive-item,
+  html body .caret a.dropdown-item .iframe .embed-responsive-item,
+  html nav .caret a.dropdown-item .iframe .embed-responsive-item {
+    margin: 25px;
+    float: left;
+  }
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html body .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html nav .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6,
+  html body div.container-fluid a.dropdown-item .iframe .row.col-lg-6,
+  html nav div.container-fluid a.dropdown-item .iframe .row.col-lg-6,
+  html body .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6,
+  html nav .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6,
+  html body .caret a.dropdown-item .iframe .row.col-lg-6,
+  html nav .caret a.dropdown-item .iframe .row.col-lg-6,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .p,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .p,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .p,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .p,
+  html body .caret a.dropdown-item .row.col-lg-6 .p,
+  html nav .caret a.dropdown-item .row.col-lg-6 .p,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p,
+  html body div.container-fluid a.dropdown-item .iframe .p,
+  html nav div.container-fluid a.dropdown-item .iframe .p,
+  html body .dropdown-toggle a.dropdown-item .iframe .p,
+  html nav .dropdown-toggle a.dropdown-item .iframe .p,
+  html body .caret a.dropdown-item .iframe .p,
+  html nav .caret a.dropdown-item .iframe .p {
+    border-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html body .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html nav .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html body div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html nav div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html body .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html nav .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html body .caret a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html nav .caret a.dropdown-item .iframe .row.col-lg-6 .box-model,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model,
+  html body .caret a.dropdown-item .row.col-lg-6 .p .box-model,
+  html nav .caret a.dropdown-item .row.col-lg-6 .p .box-model,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model,
+  html body div.container-fluid a.dropdown-item .iframe .p .box-model,
+  html nav div.container-fluid a.dropdown-item .iframe .p .box-model,
+  html body .dropdown-toggle a.dropdown-item .iframe .p .box-model,
+  html nav .dropdown-toggle a.dropdown-item .iframe .p .box-model,
+  html body .caret a.dropdown-item .iframe .p .box-model,
+  html nav .caret a.dropdown-item .iframe .p .box-model {
+    padding: 10px;
+    border: 10px, #808080;
+    margin: 30px;
+  }
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html body .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html nav .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html body div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html nav div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html body .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html nav .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html body .caret a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html nav .caret a.dropdown-item .iframe .row.col-lg-6 .box-model .events,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html body .caret a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html nav .caret a.dropdown-item .row.col-lg-6 .p .box-model .events,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model .events,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model .events,
+  html body div.container-fluid a.dropdown-item .iframe .p .box-model .events,
+  html nav div.container-fluid a.dropdown-item .iframe .p .box-model .events,
+  html body .dropdown-toggle a.dropdown-item .iframe .p .box-model .events,
+  html nav .dropdown-toggle a.dropdown-item .iframe .p .box-model .events,
+  html body .caret a.dropdown-item .iframe .p .box-model .events,
+  html nav .caret a.dropdown-item .iframe .p .box-model .events {
+    font-size: 24px;
+    box-align: center;
+    font-weight: bolder;
+    text-align: center;
+    margin: 15px;
+  }
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html body .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html nav .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h2,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html body div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html nav div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html body .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html nav .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html body .caret a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html nav .caret a.dropdown-item .iframe .row.col-lg-6 .box-model .events h2,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html body .caret a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html nav .caret a.dropdown-item .row.col-lg-6 .p .box-model .events h2,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model .events h2,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model .events h2,
+  html body div.container-fluid a.dropdown-item .iframe .p .box-model .events h2,
+  html nav div.container-fluid a.dropdown-item .iframe .p .box-model .events h2,
+  html body .dropdown-toggle a.dropdown-item .iframe .p .box-model .events h2,
+  html nav .dropdown-toggle a.dropdown-item .iframe .p .box-model .events h2,
+  html body .caret a.dropdown-item .iframe .p .box-model .events h2,
+  html nav .caret a.dropdown-item .iframe .p .box-model .events h2,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html body .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html nav .caret a.dropdown-item .row.col-lg-6 .row.col-lg-6 .box-model .events h3,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html body div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html nav div.container-fluid a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html body .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html nav .dropdown-toggle a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html body .caret a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html nav .caret a.dropdown-item .iframe .row.col-lg-6 .box-model .events h3,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html body div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html nav div.container-fluid a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html body .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html nav .dropdown-toggle a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html body .caret a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html nav .caret a.dropdown-item .row.col-lg-6 .p .box-model .events h3,
+  html body .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model .events h3,
+  html nav .navbar.navbar-inverse.navbar-static-top a.dropdown-item .iframe .p .box-model .events h3,
+  html body div.container-fluid a.dropdown-item .iframe .p .box-model .events h3,
+  html nav div.container-fluid a.dropdown-item .iframe .p .box-model .events h3,
+  html body .dropdown-toggle a.dropdown-item .iframe .p .box-model .events h3,
+  html nav .dropdown-toggle a.dropdown-item .iframe .p .box-model .events h3,
+  html body .caret a.dropdown-item .iframe .p .box-model .events h3,
+  html nav .caret a.dropdown-item .iframe .p .box-model .events h3 {
+    font-weight: bold;
+  }
+}
+footer {
+  text-align: center;
+  justify-items: center;
+}
